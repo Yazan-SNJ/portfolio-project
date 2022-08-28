@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-yazan",
+  "version": "1.0.0",
+  "description": "personal portfolio of yazan jarbou",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yazan-SNJ/portfolio-project.git"
+  },
+  "keywords": [
+    "yazan",
+    "porfolio",
+    "technology",
+    "experiments",
+    "development",
+    "programming"
+  ],
+  "author": "yazan jarbou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yazan-SNJ/portfolio-project/issues"
+  },
+  "homepage": "https://github.com/Yazan-SNJ/portfolio-project#readme"
+}
