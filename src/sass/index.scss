@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Lato&display=swap");
+
+
 $primary-color: #171717;
 $secondary-color: #444444;
 $action-color: #C68C04;
 $text-color: #EDEDED;
+$font-family-sans-serif: 'Comfortaa';
 
 
 /* === Import Bootstrap functions and variables === */
@@ -26,3 +30,57 @@ $theme-colors: (
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 /*-------------------------------------------------------------------*/
 
+@import 'about';
+@import 'projects';
+@import 'contact';
+
+main {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: $action-color;
+    padding: 0.7rem;
+    margin-right: 4rem;
+    font-family: $font-family-sans-serif;
+    }
+
+h1 {
+    font-size: 5.5rem;
+    color: $action-color;
+    text-align: center;
+    margin-top: 5rem;
+} 
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+
+}
+
+p {
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+
+}
+.intro p {
+    width: 44rem;
+
+}
+.intro {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+
+.logo {
+    font-size: 2.5rem;
+    
+}
