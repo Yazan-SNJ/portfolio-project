@@ -7,7 +7,10 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rm -rf dev-serve && parcel src/index.html --dist-dir dev-serve",
+    "build": "rm -rf build && parcel build src/index.html --dist-dir build --public-url ./",
+    "publish": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -26,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/Yazan-SNJ/portfolio-project/issues"
   },
-  "homepage": "https://github.com/Yazan-SNJ/portfolio-project#readme"
+  "homepage": "https://github.com/Yazan-SNJ/portfolio-project#readme",
+  "dependencies": {
+    "parcel": "^2.7.0"
+  }
 }
