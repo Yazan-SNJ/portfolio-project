@@ -1,0 +1,28 @@
+$primary-color: #171717;
+$secondary-color: #444444;
+$action-color: #C68C04;
+$text-color: #EDEDED;
+
+
+/* === Import Bootstrap functions and variables === */
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+/*-------------------------------------------------------------------*/
+/* Change theme-colors */
+$theme-colors: (
+    primary: $primary-color,
+    secondary: $secondary-color,
+    success: #1e6111,
+    info:  #64c3d2,
+    warning: #f5e74a,
+    danger: #820410,
+    dark: $primary-color,
+    light: $text-color
+);
+        
+/*-------------------------------------------------------------------*/
+/* === Boostrap Main SCSS === */
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+/*-------------------------------------------------------------------*/
+
