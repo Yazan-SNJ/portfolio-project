@@ -2,7 +2,6 @@
   "name": "portfolio-yazan",
   "version": "1.0.0",
   "description": "personal portfolio of yazan jarbou",
-  "main": "index.js",
   "directories": {
     "doc": "docs"
   },
@@ -31,10 +30,10 @@
   },
   "homepage": "https://github.com/Yazan-SNJ/portfolio-project#readme",
   "dependencies": {
-    "bootstrap": "^5.2.0",
-    "parcel": "^2.7.0"
+    "bootstrap": "^5.2.0"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.7.0"
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
   }
 }

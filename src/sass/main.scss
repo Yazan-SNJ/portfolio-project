@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Lato&display=swap");
+
+@import "variables";
+/* === Boostrap Main SCSS === */
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+/*-------------------------------------------------------------------*/
+
+@import "about";
+@import "projects";
+@import "contact";
+
+body {
+  background-color: black;
+  color: $text-color;
+}
+
+main {
+  // width: 800px;
+  max-width: 900px;
+  min-height: calc(100vh - 64px);
+  background-color: $primary-color;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+}
+
+nav {
+  border-bottom: 1px solid $secondary-color;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-link {
+  color: $action-color;
+  padding: 1.5rem;
+  margin-right: 4rem;
+  font-family: $font-family-sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  color: $action-color;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+}
+.intro p {
+  width: 44rem;
+  margin: 5rem auto;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero {
+  font-size: 2.5rem;
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+  grid-template-rows: 1fr 0fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-top: 10rem;
+}
+
+.logo {
+  margin-top: 0.7rem;
+}
+
+.nav-link:hover {
+  color: $text-color;
+}
+
+.nav-link:focus {
+  color: $secondary-color;
+}
+.active {
+  color: $secondary-color;
+}
+
+.me {
+  width: 230px;
+  height: 250px;
+  align-self: center;
+  border-radius: 50%;
+  transition: all 0.5s linear;
+}
+
+.me:hover {
+  width: 250px;
+  height: 270px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 5rem;
+}
+.icon {
+  font-size: 2rem;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+
+.icon:hover {
+  font-size: 2.5rem;
+}

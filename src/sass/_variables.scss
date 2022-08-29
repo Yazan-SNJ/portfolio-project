@@ -1,0 +1,17 @@
+$primary-color: #171717;
+$secondary-color: #444444;
+$action-color: #c68c04;
+$text-color: #ededed;
+$font-family-sans-serif: "Comfortaa";
+
+/* Change theme-colors */
+$theme-colors: (
+  primary: $primary-color,
+  secondary: $secondary-color,
+  success: #1e6111,
+  info: #64c3d2,
+  warning: #f5e74a,
+  danger: #820410,
+  dark: $primary-color,
+  light: $text-color,
+);
