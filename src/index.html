@@ -13,7 +13,8 @@
     <title>Yazan Jarbou</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="sass/index.css">
+    <link rel="stylesheet" href="sass/index.scss">
+    <script src="https://kit.fontawesome.com/6892e7f32a.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -21,24 +22,28 @@
     <nav>
         <ul class="nav justify-content-center bg-primary">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="projects.html">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
             </li>
         </ul>
     </nav>
 
     <main>
-        <div class="logo">Y_SN.J</div>
-        <h1>Yazan Jarbou</h1>
-        <h2>I am a frontend developer</h2>
+        <div class="hero">
+            <img class="logo" src="./images/logo.png" alt="logo">
+            <div>
+                <h1>Yazan Jarbou</h1>
+                <h2>I am a frontend developer</h2>
+            </div>
+        </div>
         <div class="intro">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -46,8 +51,16 @@
                 Semper auctor neque vitae tempus. Convallis convallis tellus id interdum
                 velit laoreet id donec.
             </p>
+            <a class="me" href="./sass/about.scss"><img class="me" src="./images/me.png" alt=""></a>
         </div>
 
+        <footer class="icons">
+
+            <i class="fa-brands fa-github icon"></i>
+            <i class="fa-brands fa-linkedin-in icon"></i>
+            <i class="fa-brands fa-xing icon"></i>
+
+        </footer>
     </main>
 </body>
 
